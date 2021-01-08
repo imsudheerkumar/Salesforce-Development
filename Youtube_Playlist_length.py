@@ -5,6 +5,10 @@ from googleapiclient.discovery import build
 
 # api_key = os.environ.get('YT_API_KEY')
 # //make your own api key
+# api_key = os.environ.get('YT_API_KEY')
+# //make your own api key
+# api_key = os.environ.get('YT_API_KEY')
+# //make your own api key
 api_key = 'AIzaSyDQ3pukh9kPgj4rOoDw2zSOiPb-VxGKcMY'
 
 youtube = build('youtube', 'v3', developerKey=api_key)
